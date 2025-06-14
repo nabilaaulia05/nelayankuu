@@ -16,7 +16,7 @@
             android:id="@+id/logoImage"
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:src="@drawable/logo_nelayanku"  <!-- ← Ini penempatannya -->
+            android:src="@drawable/logo_nelayanku"
         android:layout_gravity="center"
         android:contentDescription="Logo Nelayanku" />
 
