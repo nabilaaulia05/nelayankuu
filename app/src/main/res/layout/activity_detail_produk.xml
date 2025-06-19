@@ -31,7 +31,7 @@
             android:id="@+id/deskripsiIkan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ikan tongkol (Euthynnus affinis) adalah jenis ikan laut yang termasuk dalam keluarga Scombridae, sering juga disebut ikan tuna kecil. Ikan ini memiliki ciri khas tubuh memanjang, kulit licin berwarna abu-abu, dan daging merah tua yang tebal. Ikan tongkol hidup bergerombol di perairan hangat Indo-Pasifik Barat dan merupakan ikan perenang cepat.
+            android:text="Ikan   tongkol (Euthynnus affinis) adalah jenis ikan laut yang termasuk dalam keluarga Scombridae, sering juga disebut ikan tuna kecil. Ikan ini memiliki ciri khas tubuh memanjang, kulit licin berwarna abu-abu, dan daging merah tua yang tebal. Ikan tongkol hidup bergerombol di perairan hangat Indo-Pasifik Barat dan merupakan ikan perenang cepat.
 "
             android:textColor="@android:color/white"
             android:textSize="16sp"
