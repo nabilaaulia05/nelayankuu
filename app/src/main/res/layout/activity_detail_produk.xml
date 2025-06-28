@@ -31,10 +31,31 @@
             android:id="@+id/deskripsiIkan"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Ikan   tongkol (Euthynnus affinis) adalah jenis ikan laut yang termasuk dalam keluarga Scombridae, sering juga disebut ikan tuna kecil. Ikan ini memiliki ciri khas tubuh memanjang, kulit licin berwarna abu-abu, dan daging merah tua yang tebal. Ikan tongkol hidup bergerombol di perairan hangat Indo-Pasifik Barat dan merupakan ikan perenang cepat.
-"
+            android:text="Ikan tongkol (Euthynnus affinis) adalah jenis ikan laut..."
             android:textColor="@android:color/white"
             android:textSize="16sp"
             android:layout_marginTop="8dp" />
+
+        <!-- Jumlah produk -->
+        <TextView
+            android:id="@+id/jumlahProduk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jumlah: 0"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="24dp" />
+
+        <!-- Gambar keranjang -->
+        <ImageView
+            android:id="@+id/btnKeranjang"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/ic_cart" <!-- ganti dengan nama file ikon keranjangmu -->
+        android:contentDescription="Tambah ke keranjang"
+        android:layout_marginTop="8dp"
+        android:clickable="true"
+        android:focusable="true" />
     </LinearLayout>
 </ScrollView>
