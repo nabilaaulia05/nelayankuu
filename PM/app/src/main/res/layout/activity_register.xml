@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#007BFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logo_nelayanku"  <!-- ← Ini penempatannya -->
+    android:layout_gravity="center"
+    android:contentDescription="Logo Nelayanku" />
+
+
+    <!-- Nomor -->
+    <EditText
+        android:id="@+id/numberInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="NUMBER"
+        android:inputType="phone"
+        android:padding="12dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/emailInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="EMAIL"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Password -->
+    <EditText
+        android:id="@+id/passwordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="PASSWORD"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Re-password -->
+    <EditText
+        android:id="@+id/rePasswordInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="RE PASSWORD"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:layout_marginTop="12dp"
+        android:background="@android:drawable/editbox_background" />
+
+    <!-- Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="DAFTAR"
+        android:textAllCaps="true"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#007BFF"
+        android:padding="12dp" />
+
+</LinearLayout>

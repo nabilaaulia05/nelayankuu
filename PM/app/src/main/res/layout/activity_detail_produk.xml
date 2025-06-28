@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#007BFF">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/imageIkan"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/tongkol" />
+
+        <TextView
+            android:id="@+id/hargaIkan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rp.30.000/1 KG"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/deskripsiIkan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ikan tongkol (Euthynnus affinis) adalah jenis ikan laut yang termasuk dalam keluarga Scombridae, sering juga disebut ikan tuna kecil. Ikan ini memiliki ciri khas tubuh memanjang, kulit licin berwarna abu-abu, dan daging merah tua yang tebal. Ikan tongkol hidup bergerombol di perairan hangat Indo-Pasifik Barat dan merupakan ikan perenang cepat.
+"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginTop="8dp" />
+    </LinearLayout>
+</ScrollView>
