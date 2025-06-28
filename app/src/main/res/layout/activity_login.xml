@@ -17,30 +17,34 @@
             android:layout_width="150dp"
             android:layout_height="150dp"
             android:src="@drawable/logo_nelayanku"
-        android:layout_gravity="center"
-        android:contentDescription="Logo Nelayanku" />
-
+            android:layout_marginBottom="24dp"
+            android:contentDescription="Logo Nelayanku" />
 
         <!-- Username -->
         <EditText
             android:id="@+id/usernameInput"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="USER NAME"
+            android:layout_height="50dp"
+            android:hint="Masukkan Username"
             android:inputType="text"
             android:padding="12dp"
-            android:background="@android:drawable/editbox_background" />
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="12dp" />
 
         <!-- Password -->
         <EditText
             android:id="@+id/passwordInput"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="PASSWORD"
+            android:layout_height="50dp"
+            android:hint="Masukkan Password"
             android:inputType="textPassword"
             android:padding="12dp"
-            android:layout_marginTop="12dp"
-            android:background="@android:drawable/editbox_background" />
+            android:textColor="#000000"
+            android:textColorHint="#888888"
+            android:background="@android:drawable/editbox_background"
+            android:layout_marginBottom="20dp" />
 
         <!-- Tombol MASUK -->
         <Button
@@ -48,7 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="MASUK"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:backgroundTint="#FFFFFF"
             android:textColor="#007BFF"
             android:padding="12dp" />
@@ -64,29 +68,37 @@
             android:textColor="#007BFF"
             android:padding="12dp" />
 
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#FFFFFF"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="12dp" />
+
         <!-- Ikon Google & Facebook -->
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="24dp"
-            android:gravity="center">
+            android:gravity="center"
+            android:layout_marginTop="12dp">
 
             <ImageView
                 android:id="@+id/facebookIcon"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
+                android:layout_marginEnd="16dp"
                 android:contentDescription="Facebook Login"
                 android:src="@drawable/logo_facebook_facebook" />
-        </LinearLayout>
 
-        <ImageView
-            android:id="@+id/googleIcon"
-            android:layout_width="44dp"
-            android:layout_height="48dp"
-            android:layout_marginEnd="16dp"
-            android:contentDescription="Google Login"
-            android:src="@drawable/logo_google" />
+            <ImageView
+                android:id="@+id/googleIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:contentDescription="Google Login"
+                android:src="@drawable/logo_google" />
+        </LinearLayout>
 
     </LinearLayout>
 </ScrollView>
