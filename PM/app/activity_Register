@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:backgroundTint="#2196F3"
+        android:text="Register Pesanan" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="161dp"
+        app:srcCompat="@android:drawable/checkbox_on_background" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="66dp"
+        android:backgroundTint="#2196F3"
+        android:text="Detail Pembayaran :" />
+
+    <Button
+        android:id="@+id/btnContoh"
+        android:layout_width="match_parent"
+        android:layout_height="252dp"
+        android:gravity="start"
+        android:text="Nama : -                                                                                                                                                                 Alamat : -                                                                                                               Produk : -                                                                                                                      Metode Pembayaran : -                                                                                       Total : -                                                                                                      Status Pesanan :-"
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#2196F3"
+        android:text="Selesai" /> <!-- atau bisa pakai "left" -->
+    android:paddingStart="20dp"
+    android:background="@color/purple_200"
+    />
+
+
+</LinearLayout>
